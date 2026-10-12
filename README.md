@@ -1,1 +1,1 @@
-$(cat /tmp/readme.md)
+$(python3 -c 'print(open("/tmp/readme.md").read())')
